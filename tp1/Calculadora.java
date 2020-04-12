@@ -1,5 +1,4 @@
 package CalculadoraPB2;
-
 import java.util.Scanner;
 
 public class Calculadora {
@@ -15,7 +14,7 @@ public class Calculadora {
 		 
 		 do {
 			 
-			 System.out.println("Ingrese su operación: " + "\n" + "\n" + "1 para multiplicar" + "\n" + "2 para dividir" + "\n" + "3 para sumar" + "\n" + "4 para restar" + "\n");
+			 System.out.println("Ingrese su operaciÃ³n: " + "\n" + "\n" + "1 para multiplicar" + "\n" + "2 para dividir" + "\n" + "3 para sumar" + "\n" + "4 para restar" + "\n");
 			 
 			 try {
 				 opcion = teclado.nextInt();
@@ -58,25 +57,6 @@ public class Calculadora {
 		 
 		 }
 		 
-//		-- REEMPLAZADO POR SWITCH --
-		 
-//		 if (opcion.equals(1)){
-//			 
-//			 resultado = a + b;
-//			 
-//		 } else if (opcion.equals(2)) {
-//			 
-//			 resultado = a - b;
-//			 
-//		 } else if (opcion.equals(3)) {
-//			 
-//			 resultado = a * b;
-//		 
-//		 } else {
-//			 
-//			 resultado = a / b;
-//			 
-//		 }
 		 
 		 System.out.println("El resultado es " + resultado.toString());
 		 
